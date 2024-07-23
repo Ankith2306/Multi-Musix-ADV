@@ -1,4 +1,6 @@
+import WebSocket from 'ws';
 
+const connection = new WebSocket('ws://localhost:8080');
 
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
